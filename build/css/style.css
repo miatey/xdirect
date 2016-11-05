@@ -1,0 +1,98 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+body, html { height: 100%; }
+
+img, fieldset, a img { border: none; }
+
+input[type="text"], input[type="email"], input[type="tel"], textarea { -webkit-appearance: none; }
+
+textarea { overflow: auto; }
+
+input, button { margin: 0; padding: 0; border: 0; }
+
+input[type="submit"], button { cursor: pointer; }
+
+div, input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus { outline: none; }
+
+ul, ol { list-style-type: none; }
+table { border-spacing: 0; border-collapse: collapse; width: 100%; }
+
+html { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+*, *:before, *:after { -webkit-box-sizing: inherit; box-sizing: inherit; }
+
+@font-face { font-family: "svgfont"; src: url("fonts/svgfont.eot"); src: url("fonts/svgfont.eot?#iefix") format("eot"), url("fonts/svgfont.woff") format("woff"), url("fonts/svgfont.woff2") format("woff2"), url("fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+.icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.icon, [class^="icon-"], [class*=" icon-"] { display: inline-block; }
+
+.icon-sepa:before { content: ""; }
+
+.icon-skrill:before { content: ""; }
+
+@font-face { font-family: name_calibri; src: url("fonts/calibri.woff2") format("woff2"), url("fonts/calibri.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: name_calibrilight; src: url("fonts/calibriLight.woff2") format("woff2"), url("fonts/calibriLight.woff") format("woff"); font-weight: normal; font-style: normal; }
+body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
+
+.out { max-width: 1920px; overflow: hidden; margin: auto; }
+
+.unite { max-width: 1167px; margin: auto; }
+
+.img-logo { max-width: 179px; max-height: 53px; }
+
+.header { background: url(../img/header_white.png) center/cover no-repeat; padding: 45px 0 32px 0; position: absolute; width: 100%; z-index: 40; }
+
+.register { background: url(../img/header_people.png) center/cover no-repeat; position: relative; width: 100%; z-index: 20; min-height: 815px; }
+.register__click { border: 2px solid #2d67b2; border-radius: 15px; width: 384px; height: 81px; position: absolute; bottom: 71px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); background: none; }
+.register__click span { font-family: "name_calibri", sans-serif; font-size: 24px; line-height: 2.4; text-transform: uppercase; padding: 0 19%; letter-spacing: 0.3px; }
+
+.offers__text { font-family: "name_calibri", sans-serif; font-size: 36px; font-weight: bold; line-height: 1.16; }
+.offers__text span { font-size: 60px; color: #2d67b2; font-weight: normal; }
+.offers__above { padding: 0 0 30px 0; text-align: center; }
+.offers__under { font-family: "name_calibri", sans-serif; font-size: 23.5px; line-height: 1.33; font-weight: normal; padding: 0 12%; text-align: center; }
+
+.provide { width: 100%; background: url(../img/background_provide.png) center/cover no-repeat; max-height: 720px; padding-top: 55px; }
+.provide__text { text-align: center; font-family: "name_calibri", sans-serif; font-size: 36px; font-weight: bold; line-height: 1.26; padding-bottom: 64px; }
+.provide__text span { font-size: 60px; color: #2d67b2; font-weight: normal; }
+.provide__block { width: 32.3%; margin-bottom: 75px; display: inline-block; }
+.provide__block-image { float: left; width: 50%; }
+.provide__block-text { float: left; width: 50%; padding-left: 2%; padding-top: 30px; font-family: "name_calibri", sans-serif; font-size: 18px; }
+.provide__block-text .more { padding-bottom: 10px; }
+
+.present { width: 100%; overflow: hidden; }
+.present__demo { width: 50%; display: inline-block; text-align: center; padding: 130px 115px; float: left; }
+.present__text { font-family: "name_calibri", sans-serif; font-size: 36px; font-weight: bold; }
+.present__money { font-family: "name_calibrilight", sans-serif; font-size: 60px; color: #f0b206; }
+.present__account { font-family: "name_calibri", sans-serif; font-weight: normal; }
+.present__bounty { color: #2d67b2; font-size: 60px; font-family: "name_calibrilight", sans-serif; }
+.present__form { width: 41%; float: left; background: #e6eefd; display: inline-block; text-align: center; padding-top: 30px; margin-right: 112px; }
+.present__contacts { font-family: "name_calibri", sans-serif; font-size: 24px; }
+
+.fill { height: 35px; width: 305px; margin-bottom: 20px; }
+
+.send { border: 2px solid #2d67b2; border-radius: 15px; max-width: 377px; max-height: 75px; background: none; }
+
+.footer { width: 100%; background: url(../img/background_footer.png) center/cover no-repeat; padding-bottom: 70px; padding-top: 33px; }
+.footer__company { font-family: "name_calibri", sans-serif; font-size: 36px; font-weight: bold; text-align: center; color: white; padding-bottom: 55px; }
+.footer__partner { font-family: "name_calibrilight", sans-serif; font-size: 60px; color: #f0b206; font-weight: normal; }
+.footer__item { display: inline-block; width: 24%; vertical-align: text-top; text-align: center; }
+.footer__icon { padding-bottom: 33px; }
+.footer__icon-text { font-family: "name_calibri", sans-serif; font-size: 19.2px; font-weight: bold; color: white; }
+
+.actions { width: 100%; height: 336px; }
+.actions__oval { position: relative; width: 296px; height: 193px; overflow: hidden; z-index: 70; background-color: transparent; }
+.actions__ovalusd { overflow: hidden; position: absolute; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border-radius: 0 50% 50% 0; background-color: #eee; min-width: 296px; min-height: 262px; z-index: 50; }
+
+.nun { position: relative; left: 10%; z-index: 40; }
+
+.f2 { position: absolute; z-index: 40; right: -7%; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+
+.num { position: relative; left: 5%; opacity: 0.5; min-width: 296px; min-height: 193px; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+ *{ -webkit-text-size-adjust: none; } }
+
+
+
+/*# sourceMappingURL=style.css.map */

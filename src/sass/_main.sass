@@ -1,0 +1,239 @@
+// Normally mainpage styles
+.header
+  background: url(../img/header_white.png) center/cover no-repeat
+  padding: 45px 0 32px 0
+  position: absolute
+  width: 100%
+  z-index: 40
+
+.register
+  background: url(../img/header_people.png) center/cover no-repeat
+  position: relative
+  width: 100%
+  z-index: 20
+  min-height: 815px
+  &__click
+    border: 2px solid #2d67b2
+    border-radius: 15px
+    //max-width: 377px
+    //max-height: 75px
+    width: 384px
+    height: 81px
+    position: absolute
+    //bottom: 66px
+    bottom: 71px
+    left: 50%
+    transform: translateX(-50%)
+    background: none
+    span
+      +calibri
+      font-size: 24px
+      line-height: 2.4
+      text-transform: uppercase
+      padding: 0 19%
+      letter-spacing: 0.3px
+
+.offers
+  //padding: 0 8.1% 60px 0
+  &__text
+    +calibri
+    font-size: 36px
+    font-weight: bold
+    line-height: 1.16
+    span
+      font-size: 60px
+      color: #2d67b2
+      font-weight: normal
+  &__above
+    padding: 0 0 30px 0
+    text-align: center
+  &__under
+    +calibri
+    font-size: 23.5px
+    line-height: 1.33
+    font-weight: normal
+    padding: 0 12%
+    text-align: center
+
+
+.provide
+  width: 100%
+  background: url(../img/background_provide.png) center/cover no-repeat
+  max-height: 720px
+  padding-top: 55px
+  &__text
+    text-align: center
+    +calibri
+    font-size: 36px
+    font-weight: bold
+    line-height: 1.26
+    padding-bottom: 64px
+    span
+      font-size: 60px
+      color: #2d67b2
+      font-weight: normal
+
+  &__block
+    width: 32.3%
+    //display: inline-flex
+    //vertical-align: bottom
+    margin-bottom: 75px
+    //float: left
+    //height: 211px
+    display: inline-block
+  &__block-image
+    float: left
+    width: 50%
+    //display: inline-block
+    //vertical-align: bottom
+
+  &__block-text
+    float: left
+    width: 50%
+    padding-left: 2%
+    padding-top: 30px
+    +calibri
+    font-size: 18px
+    .more
+      padding-bottom: 10px
+
+
+  //  display: inline-block
+  //  vertical-align: middle
+
+  //
+  //.test, .test1
+    display: inline-block
+    vertical-align: middle
+.present
+  width: 100%
+  overflow: hidden
+  &__demo
+    width: 50%
+    display: inline-block
+    text-align: center
+    padding: 130px 115px
+    float: left
+  &__text
+    +calibri
+    font-size: 36px
+    font-weight: bold
+  &__money
+    +calibriL
+    font-size: 60px
+    color: #f0b206
+  &__account
+    +calibri
+    font-weight: normal
+  &__bounty
+    color: #2d67b2
+    font-size: 60px
+    +calibriL
+
+  &__form
+    width: 41%
+    float: left
+    background: #e6eefd
+    display: inline-block
+    text-align: center
+    padding-top: 30px
+    margin-right: 112px
+  &__contacts
+    +calibri
+    font-size: 24px
+.fill
+  height: 35px
+  width: 305px
+  margin-bottom: 20px
+.send
+  border: 2px solid #2d67b2
+  border-radius: 15px
+  max-width: 377px
+  max-height: 75px
+  background: none
+
+.footer
+  width: 100%
+  background: url(../img/background_footer.png) center/cover no-repeat
+  padding-bottom: 70px
+  padding-top: 33px
+  &__company
+    +calibri
+    font-size: 36px
+    font-weight: bold
+    text-align: center
+    color: white
+    padding-bottom: 55px
+  &__partner
+    +calibriL
+    font-size: 60px
+    color: #f0b206
+    font-weight: normal
+
+  &__item
+    display: inline-block
+    width: 24%
+    //padding-left: 60px
+    vertical-align: text-top
+    text-align: center
+  &__icon
+    padding-bottom: 33px
+  &__icon-text
+    +calibri
+    font-size: 19.2px
+    font-weight: bold
+    color: white
+
+.actions
+  width: 100%
+  height: 336px
+  // &__oval
+  //   background: url(../img/k01.png)
+  //   width: 296px
+  //   height: 193px
+  //   float: left
+  // &__ovald
+  //   background: url(../img/k01.png)
+  //   width: 296px
+  //   height: 193px
+  //   float: left
+  &__ovals
+    // position: absolute
+  &__oval
+    position: relative
+    width: 296px
+    height: 193px
+    overflow: hidden
+    z-index: 70
+    background-color: transparent
+  &__ovalusd
+    overflow: hidden
+    position: absolute
+    +vcenter
+    border-radius: 0 50% 50% 0
+    background-color: #eee
+    min-width: 296px
+    min-height: 262px
+    z-index: 50
+
+.nun
+  position: relative
+  left: 10%
+  //opacity: 0.8
+  // min-width: 296px
+  // min-height: 193px
+  z-index: 40
+.f2
+  position: absolute
+  z-index: 40
+  //left: 30px
+  right: -7%
+  top: 50%
+  transform: translateY(-50%)
+
+.num
+  position: relative
+  left: 5%
+  opacity: 0.5
+  min-width: 296px
+  min-height: 193px
