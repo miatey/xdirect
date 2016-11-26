@@ -31,8 +31,9 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .icon-skrill:before { content: ""; }
 
-@font-face { font-family: name_calibri; src: url("fonts/calibri.woff2") format("woff2"), url("fonts/calibri.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: name_calibrilight; src: url("fonts/calibriLight.woff2") format("woff2"), url("fonts/calibriLight.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: calibri; src: url("fonts/calibri.woff2") format("woff2"), url("fonts/calibri.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: Calibri Light; src: url("fonts/Calibri Light.woff2") format("woff2"), url("fonts/Calibri Light.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: CalibriItalic; src: url("fonts/CalibriItalic.woff2") format("woff2"), url("fonts/CalibriItalic.woff") format("woff"); font-weight: normal; font-style: normal; }
 body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
 .out { max-width: 1920px; overflow: hidden; margin: auto; }
@@ -43,55 +44,109 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
 .header { background: url(../img/header_white.png) center/cover no-repeat; padding: 45px 0 32px 0; position: absolute; width: 100%; z-index: 40; }
 
-.register { background: url(../img/header_people.png) center/cover no-repeat; position: relative; width: 100%; z-index: 20; min-height: 815px; }
+.register { background: url(../img/header_people.jpg) center/cover no-repeat; position: relative; width: 100%; z-index: 20; min-height: 815px; }
 .register__click { border: 2px solid #2d67b2; border-radius: 15px; width: 384px; height: 81px; position: absolute; bottom: 71px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); background: none; }
-.register__click span { font-family: "name_calibri", sans-serif; font-size: 24px; line-height: 2.4; text-transform: uppercase; padding: 0 19%; letter-spacing: 0.3px; }
+.register__text { font-family: "calibri", sans-serif; font-size: 24px; line-height: 2.4; text-transform: uppercase; padding: 0 19%; letter-spacing: 0.3px; }
 
-.offers__text { font-family: "name_calibri", sans-serif; font-size: 36px; font-weight: bold; line-height: 1.16; }
-.offers__text span { font-size: 60px; color: #2d67b2; font-weight: normal; }
-.offers__above { padding: 0 0 30px 0; text-align: center; }
-.offers__under { font-family: "name_calibri", sans-serif; font-size: 23.5px; line-height: 1.33; font-weight: normal; padding: 0 12%; text-align: center; }
+.offers__text { font-family: "calibri", sans-serif; font-size: 36px; font-weight: bold; line-height: 1.16; }
+.offers__text span { font-size: 60px; color: #2d67b2; font-weight: normal; line-height: 0; }
+.offers__above { padding: 0 0 19px 0; text-align: center; }
+.offers__under { font-family: "calibri", sans-serif; font-size: 23.5px; line-height: 1.33; font-weight: normal; padding: 0 12%; text-align: center; }
 
-.provide { width: 100%; background: url(../img/background_provide.png) center/cover no-repeat; max-height: 720px; padding-top: 55px; }
-.provide__text { text-align: center; font-family: "name_calibri", sans-serif; font-size: 36px; font-weight: bold; line-height: 1.26; padding-bottom: 64px; }
-.provide__text span { font-size: 60px; color: #2d67b2; font-weight: normal; }
+.provide { width: 100%; background: url(../img/background_provide.png) center/cover no-repeat; padding-top: 55px; }
+.provide__text { text-align: center; font-family: "calibri", sans-serif; font-size: 36px; font-weight: bold; line-height: 1.26; padding-bottom: 64px; }
+.provide__text span { font-size: 60px; color: #f0b206; font-weight: normal; }
 .provide__block { width: 32.3%; margin-bottom: 75px; display: inline-block; }
 .provide__block-image { float: left; width: 50%; }
-.provide__block-text { float: left; width: 50%; padding-left: 2%; padding-top: 30px; font-family: "name_calibri", sans-serif; font-size: 18px; }
-.provide__block-text .more { padding-bottom: 10px; }
+.provide__block-text { float: left; width: 50%; padding-left: 2%; padding-top: 30px; }
+.provide__block-text a { font-family: "CalibriItalic", sans-serif; font-size: 16.2px; color: #f0b206; }
+.provide__block-text .more { padding-bottom: 10px; font-family: "calibri", sans-serif; font-size: 19px; line-height: 1.2; }
 
 .present { width: 100%; overflow: hidden; }
-.present__demo { width: 50%; display: inline-block; text-align: center; padding: 130px 115px; float: left; }
-.present__text { font-family: "name_calibri", sans-serif; font-size: 36px; font-weight: bold; }
-.present__money { font-family: "name_calibrilight", sans-serif; font-size: 60px; color: #f0b206; }
-.present__account { font-family: "name_calibri", sans-serif; font-weight: normal; }
-.present__bounty { color: #2d67b2; font-size: 60px; font-family: "name_calibrilight", sans-serif; }
-.present__form { width: 41%; float: left; background: #e6eefd; display: inline-block; text-align: center; padding-top: 30px; margin-right: 112px; }
-.present__contacts { font-family: "name_calibri", sans-serif; font-size: 24px; }
+.present__demo { width: 49%; display: inline-block; text-align: center; float: left; }
+.present__text { font-family: "calibri", sans-serif; font-size: 36px; font-weight: bold; padding: 20% 14% 0 14%; line-height: 1; }
+.present__money { font-family: "Calibri Light", sans-serif; font-size: 60px; color: #f0b206; }
+.present__account { font-family: "calibri", sans-serif; font-weight: normal; }
+.present__bounty { color: #2d67b2; font-size: 36px; font-family: "calibri", sans-serif; font-weight: bold; }
+.present__present { text-transform: uppercase; color: #2d67b2; font-size: 60px; font-weight: normal; }
+.present__form { width: 41%; float: left; background: #e6eefd; display: inline-block; text-align: center; padding-top: 17px; margin-right: 112px; }
+.present__contacts { font-family: "calibri", sans-serif; font-size: 24px; font-weight: bold; padding: 3% 0; }
+
+.check { display: inline-block; text-align: -webkit-auto; width: 305px; }
 
 .fill { height: 35px; width: 305px; margin-bottom: 20px; }
 
-.send { border: 2px solid #2d67b2; border-radius: 15px; max-width: 377px; max-height: 75px; background: none; }
+.send { border: 2px solid #2d67b2; border-radius: 15px; max-width: 276px; height: 76px; background: none; font-family: "calibri", sans-serif; font-weight: bold; font-size: 24px; text-transform: uppercase; }
+
+.sumbit { padding-top: 20px; }
 
 .footer { width: 100%; background: url(../img/background_footer.png) center/cover no-repeat; padding-bottom: 70px; padding-top: 33px; }
-.footer__company { font-family: "name_calibri", sans-serif; font-size: 36px; font-weight: bold; text-align: center; color: white; padding-bottom: 55px; }
-.footer__partner { font-family: "name_calibrilight", sans-serif; font-size: 60px; color: #f0b206; font-weight: normal; }
+.footer__company { font-family: "calibri", sans-serif; font-size: 36px; font-weight: bold; text-align: center; color: white; padding-bottom: 55px; }
+.footer__partner { font-family: "Calibri Light", sans-serif; font-size: 60px; color: #f0b206; font-weight: normal; }
 .footer__item { display: inline-block; width: 24%; vertical-align: text-top; text-align: center; }
 .footer__icon { padding-bottom: 33px; }
-.footer__icon-text { font-family: "name_calibri", sans-serif; font-size: 19.2px; font-weight: bold; color: white; }
+.footer__icon-text { font-family: "calibri", sans-serif; font-size: 19.2px; font-weight: bold; color: white; }
+.footer .color-orange { color: #f0b206; }
 
-.actions { width: 100%; height: 336px; }
-.actions__oval { position: relative; width: 296px; height: 193px; overflow: hidden; z-index: 70; background-color: transparent; }
-.actions__ovalusd { overflow: hidden; position: absolute; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border-radius: 0 50% 50% 0; background-color: #eee; min-width: 296px; min-height: 262px; z-index: 50; }
+.actions { width: 100%; height: 336px; background: url(../img/background_footer.png) center/cover no-repeat; }
+.actions .our { color: #f0b206; font-size: 60px; font-family: "Calibri Light", sans-serif; font-weight: normal; }
+.actions__text { font-size: 36px; font-family: "calibri", sans-serif; font-weight: bold; color: white; }
+.actions__oval { position: relative; height: 193px; overflow: hidden; z-index: 70; background-color: transparent; }
+.actions__ovalusd { overflow: hidden; position: absolute; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border-radius: 0 50% 50% 0; background-color: #636262; min-width: 296px; min-height: 262px; z-index: 50; left: 13%; }
+.actions__ovalusd .number { position: absolute; color: #f0b206; font-size: 35.34px; font-family: "calibri", sans-serif; top: 12%; left: 6%; }
+.actions__ovalusd1 { overflow: hidden; position: absolute; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border-radius: 0 50% 50% 0; background-color: #777575; min-width: 296px; min-height: 262px; z-index: 49; left: 34%; }
+.actions__ovalusd1 .number { position: absolute; color: #f0b206; font-size: 35.34px; font-family: "calibri", sans-serif; top: 12%; left: 15%; }
+.actions__ovalusd2 { overflow: hidden; position: absolute; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border-radius: 0 50% 50% 0; background-color: #8a8a8a; min-width: 296px; min-height: 262px; z-index: 48; left: 55%; }
+.actions__ovalusd2 .number { position: absolute; color: #f0b206; font-size: 35.34px; font-family: "calibri", sans-serif; top: 12%; left: 15%; }
+.actions__ovalusd3 { overflow: hidden; position: absolute; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); background: url(../img/k02.png); min-width: 39%; min-height: 262px; z-index: 47; left: 76%; }
+.actions__ovalusd3 span { font-family: "calibri", sans-serif; font-weight: bold; font-size: 53.21px; color: black; }
+.actions__consultation { position: absolute; font-family: "calibri", sans-serif; font-size: 19.63px; line-height: 1.2; top: 37%; left: 16%; width: 61%; text-align: center; color: white; }
+.actions__pig { position: absolute; top: 50%; left: 42%; font-size: 31.3px; font-family: "calibri", sans-serif; font-weight: bold; width: 32%; text-align: center; line-height: 1; }
 
-.nun { position: relative; left: 10%; z-index: 40; }
+.bold { font-family: "calibri", sans-serif; font-weight: bold; }
 
 .f2 { position: absolute; z-index: 40; right: -7%; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
-.num { position: relative; left: 5%; opacity: 0.5; min-width: 296px; min-height: 193px; }
+.f3 { position: absolute; z-index: 40; right: 34%; top: 33%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
+
+@media only screen and (max-width: 1164px){
+ .provide{ display: inline-block; }
+ .provide__block{ float: left; width: 50%; padding: 0 6%; } }
+
+@media only screen and (max-width: 1161px){
+ .actions{ display: none; } }
+
+@media only screen and (max-width: 1120px){
+ .present__demo{ width: 100%; }
+ .present__text{ padding: 5% 14%; }
+ .present__form{ width: 100%; padding: 0; } }
+
+@media only screen and (max-width: 958px){
+ .provide__block{ width: 100%; padding: 0 14%; } }
+
+@media only screen and (max-width: 604px){
+ .footer__item{ width: 47%; padding-top: 10%; } }
+
+@media only screen and (max-width: 561px){
+ .provide__block{ padding: 0 7%; } }
+
+@media only screen and (max-width: 459px){
+ .provide__block-text{ float: none; width: 63%; } }
+
+@media only screen and (max-width: 452px){
+ .provide__block{ text-align: center; padding: 0 0 0 26%; }
+ .provide__block-image{ width: 59%; } }
+
+@media only screen and (max-width: 396px){
+ .register__click{ width: 278px; }
+ .register__text{ padding: 0; } }
+
+@media only screen and (max-width: 320px){
+ .footer__item{ width: 100%; }
+ .footer__icon-text{ width: 98%; } }
 
 
 
