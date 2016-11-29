@@ -13,13 +13,46 @@
 <div class="out">
 <!-- BEGIN  header-->
 <header class="header">
-  <div class="unite">
-    <div class="header__logo">
-      <a href="#" class="item-logo">
-        <img src="img/logo.svg" alt="logo" class="img-logo">
-      </a>
-    </div>
-  </div>
+	<div class="unite">
+		<div class="header__logo alignment">
+			<a href="#" class="item-logo">
+				<img src="img/logo.svg" alt="logo" class="img-logo">
+			</a>
+		</div>
+<button type="button" name="button" class="btn-nav"></button>
+		<div class="header__menu alignment open-nav">
+
+			<ul class="nam1">
+				<li class="header__item">
+					<a class="block" href="#">main</a>
+					<ul class="num2">
+						<li class="sub-menu">main1</li>
+						<li class="sub-menu">main2</li>
+						<li class="sub-menu">main3</li>
+						<li class="sub-menu">main4</li>
+					</ul>
+				</li>
+				<li class="header__item">
+					<a class="block" href="#">Buy</a>
+					<ul class="num2">
+						<li class="sub-menu">buy1</li>
+						<li class="sub-menu">buy2</li>
+						<li class="sub-menu">buy3</li>
+						<li class="sub-menu">buy4</li>
+					</ul>
+				</li>
+				<li class="header__item">
+					<a class="block" href="#">About</a>
+					<ul class="num2">
+						<li class="sub-menu">About1</li>
+						<li class="sub-menu">About1</li>
+						<li class="sub-menu">About1</li>
+						<li class="sub-menu">About1</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
 </header>
 <!-- END header-->
 
@@ -144,27 +177,26 @@
 
 <section class="present">
 <div class="unite">
-  <div class="present__demo">
-    <p class="present__text">Получите бесплатный
-      <span class="present__account">демо-счет</span> на <span class="present__money">$10 000</span>
-      для пробной торговли
-    <span class="present__bounty">в </span><span class="present__present">подарок</span></p>
-  </div>
-  <section>
-    <div class="present__form">
-      <form action="partialsPHP/query.php" method="get" name="forma1" >
-     <p class="present__contacts">Оставьте свои контакты, и мы свяжемся
-  с Вами в ближайшее время</p>
-     <p><input class="fill" name="name" type="text"  placeholder="Имя:" pattern="[A-Za-z]{4,10}"></p>
-     <p><input class="fill" name="surname" type="text" placeholder="Фамилия:" pattern="[A-Za-z]{4,10}"></p>
-     <p><input class="fill" name="phone" type="tel" placeholder="Телефон:" required></p>
-     <p><input class="fill" name="mail" type="email" placeholder="Email:" required></p>
-     <p class="check"><input type="checkbox"/>Я принимаю условия регламентирующих документов: Декларация инвестиционного риска, Политика конфиденциальности.</p>
-      <p class="sumbit"><input class="fill send" type="submit" value="Отправить"></p>
-   </form>
-    </div>
-  </section>
-  
+	<div class="present__demo">
+		<p class="present__text">Получите бесплатный
+			<span class="present__account">демо-счет</span> на
+			<span class="present__money">$10 000</span>для пробной торговли
+			<span class="present__bounty">в </span>
+			<span class="present__present">подарок</span>
+		</p>
+	</div>
+	<div class="present__form">
+		<form action="partialsPHP/query.php" method="get" name="forma1" >
+			<p class="present__contacts">Оставьте свои контакты, и мы свяжемся с Вами в ближайшее время</p>
+			<p><input class="fill" name="name" type="text"  placeholder="Имя:" pattern="[A-Za-z]{4,10}"></p>
+			<p><input class="fill" name="surname" type="text" placeholder="Фамилия:" pattern="[A-Za-z]{4,10}"></p>
+			<p><input class="fill" name="phone" type="tel" placeholder="Телефон:" required></p>
+			<p><input class="fill" name="mail" type="email" placeholder="Email:" required></p>
+			<p class="check"><input type="checkbox"/>Я принимаю условия регламентирующих документов: Декларация инвестиционного риска, Политика конфиденциальности.</p>
+			<p class="sumbit"><input class="fill send" type="submit" value="Отправить"></p>
+		</form>
+	</div>
+	
 </div>
 </section>
 
@@ -176,22 +208,18 @@
         <img class="footer__icon" src="img/footer_icon1.png" alt="">
         <p class="footer__icon-text">Более <br><span class="color-orange">10 лет</span><br> работы в СНГ</p>
       </li>
-
       <li class="footer__item">
         <img class="footer__icon" src="img/footer_icon2.png" alt="">
         <p class="footer__icon-text">Работаем<br> на <span class="color-orange">3<br> континентах</span></p>
       </li>
-
       <li class="footer__item">
         <img class="footer__icon" src="img/footer_icon3.png" alt="">
         <p class="footer__icon-text">Более <br><span class="color-orange">1 млн. </span>клиентов<br> по всему миру</p>
       </li>
-
       <li class="footer__item">
         <img class="footer__icon" src="img/footer_icon4.png" alt="">
         <p class="footer__icon-text">Входим в состав<br> европейского<br> брокерского дома <span class="color-orange">ХTB</span> (регулирование MiFID, FCA)</p>
       </li>
-
     </ul>
   </div>
 </footer>
